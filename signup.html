@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+</head>
+
+<body>
+    <header>
+        <div
+            style="background-color: rgb(196, 215, 243); display: block;height: 25px; padding-top: 15px; padding-bottom: 10px;">
+            <div style="float:left; padding-left: 100px; font-weight: bolder; font-size: larger; color: blue;">
+                Art House </div>
+            <div style="float:right; padding-right: 100px; ">
+                <nav>
+                    <a href="#" style="padding-right:25px; text-decoration: none; ">Home</a>
+                    <a href="contact.html" style="padding-right:25px; text-decoration: none; ">Contact</a>
+                    <a href="about.html" style="padding-right:25px; text-decoration: none; ">About</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <br>
+    <section>
+        <div>
+            <fieldset
+                style="width: 400px; text-align:center;margin-right: auto; margin-left: auto; border-radius: 10px;">
+                <legend>
+                    Create Your Account
+                </legend>
+                <br>
+                <form action="login.html" style="text-align:center ;">
+                    <input type="text" placeholder="First Name" required style="padding: 5px">
+                    <input type="text" placeholder="Last  Name" required style="padding: 5px;margin-bottom: 10px;">
+                    <br>
+                    <input type="text" placeholder="User Name"
+                        style="width:360px; padding-left: 4px;padding-right: 4px; padding-top: 4px; padding-bottom: 4px; margin-bottom: 10px;">
+                    <br>
+                    <input type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required
+                        style="width:360px; padding-left: 4px;padding-right: 4px; padding-top: 4px; padding-bottom: 4px; margin-bottom: 10px;">
+                    <br>
+                    <input type="text" placeholder="Phone Number" required
+                        style="width:360px; padding: 4px;margin-bottom: 10px;">
+                    <br>
+                    <div
+                        style="text-align: left; border:1px solid gray; width:360px; margin-right: auto; margin-left: auto;  padding-left: 4px;padding-right: 4px; padding-top: 4px; padding-bottom: 4px; border-radius: 2px; margin-bottom: 9px; color:gray">
+                        <span> Gender: </span>
+                        <input type="radio" name="gender" value="Male">
+                        <label for="geneder" style="color: black;">Male</label>
+                        <input type="radio" name="gender" value="Female">
+                        <label for="geneder" style="color: black;">Female</label>
+                    </div>
+
+                    <input type="date" placeholder="Birthdate" required
+                        style="width:360px; padding: 4px;margin-bottom: 10px;">
+                    <br>
+
+                    <input type="password" placeholder="Password" required style="padding: 5px;margin-bottom: 10px;">
+                    <input type="password" placeholder="Confirm Password" required
+                        style="padding: 5px;margin-bottom: 10px;">
+                    <br>
+                    <br>
+                    <br>
+
+                    <a href="#" target="_blank">
+                        <input type="submit"
+                            style="background-color:rgb(240, 151, 196) ; border: none; padding:5px; border-radius: 5px; box-shadow: 2px 2px 1px #b7b6bd;"
+                            value="Sign Up">
+                    </a>
+                </form>
+            </fieldset>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
